@@ -929,7 +929,7 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bloombug/money@1.1.5":
+"@bloombug/money@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@bloombug/money/-/money-1.1.5.tgz#ab7124b2f93a67208d57c2c2b1e2c067e1c6f3af"
   integrity sha512-wT2jUh97aqEVExnFjjNrvYzpg4HlOdNcbl2US/YXxLTHqeNUgMzF1PWtz7a2UZD6klwf5uXeIvMu09sDdoYXew==
