@@ -1,4 +1,4 @@
-import { Money } from '@bloombug/money';
+import { Money } from '../types';
 
 declare global {
   namespace jest {

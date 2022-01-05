@@ -929,13 +929,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bloombug/money@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@bloombug/money/-/money-1.1.5.tgz#ab7124b2f93a67208d57c2c2b1e2c067e1c6f3af"
-  integrity sha512-wT2jUh97aqEVExnFjjNrvYzpg4HlOdNcbl2US/YXxLTHqeNUgMzF1PWtz7a2UZD6klwf5uXeIvMu09sDdoYXew==
-  dependencies:
-    bigdecimal.js "^1.1.0"
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1819,11 +1812,6 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
-
-bigdecimal.js@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/bigdecimal.js/-/bigdecimal.js-1.1.0.tgz#e09392b8881f3d290a6dd348a1ad05fbc4144edf"
-  integrity sha512-oQyDk72s4qcXUDO2zA6K/Tjo0x/Fwtlfk87UAfdY5/j0+oDCn4g72q2w/L9+fMoTxCjskR99CZJJA4dUrSop5Q==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
