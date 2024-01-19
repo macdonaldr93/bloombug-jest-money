@@ -7,7 +7,7 @@ declare global {
        * Assert whether money is equal to another or not.
        * @param {Money} money - Money to compare to
        * @example
-       * expect(new Money(100, 'CAD')).toEqualMoney(new Money(100, 'CAD'))
+       * expect(Money(100, 'CAD')).toEqualMoney(Money(100, 'CAD'))
        */
       toEqualMoney(money: Money): R;
     }

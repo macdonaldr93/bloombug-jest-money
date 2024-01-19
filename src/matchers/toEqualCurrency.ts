@@ -7,7 +7,7 @@ declare global {
        * Assert whether currency is equal to another or not.
        * @param {Currency} currency - Currency to compare to
        * @example
-       * expect(new Currency('CAD')).toEqualCurrency(new Currency('CAD'))
+       * expect(money.currency).toEqualCurrency(CAD)
        */
       toEqualCurrency(currency: Currency): R;
     }
@@ -19,17 +19,16 @@ export default function toEqualCurrency(
   received: Currency,
   expected: Currency
 ) {
-  if (received.equals(expected)) {
+  if (received.isoCode === expected.isoCode) {
     return {
       pass: true,
       message: () =>
-        `Expected ${received.toString()} not to equal ${expected.toString()}`,
+        `Expected ${received.isoCode} not to equal ${expected.isoCode}`,
     };
   }
 
   return {
     pass: false,
-    message: () =>
-      `Expected ${received.toString()} to equal ${expected.toString()}`,
+    message: () => `Expected ${received.isoCode} to equal ${expected.isoCode}`,
   };
 }
